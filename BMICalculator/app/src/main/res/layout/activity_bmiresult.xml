@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bmiresult"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="aanchal.example.com.bmicalculator.BMIResult">
+
+    <TextView
+        android:id="@+id/txtResult1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/btnShare"
+        android:layout_toStartOf="@+id/btnShare"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnBack"
+        android:layout_alignBottom="@+id/btnBack"
+        android:layout_centerHorizontal="true"
+
+        android:text="SHARE" />
+
+    <TextView
+        android:id="@+id/txtResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtResult1"
+        android:layout_marginTop="75dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtResult3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtResult2"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+         />
+
+    <TextView
+        android:id="@+id/txtResult4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtResult3"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+
+         />
+
+    <TextView
+        android:id="@+id/txtResult5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtResult4"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+         />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:text="Save"
+        android:layout_alignBaseline="@+id/btnShare"
+        android:layout_alignBottom="@+id/btnShare"
+        android:layout_toRightOf="@+id/btnShare"
+        android:layout_toEndOf="@+id/btnShare"
+        android:layout_marginStart="11dp" />
+</RelativeLayout>
